@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../Css/pausas-activas.css">
+    <link rel="stylesheet" href="../Css/calculador-imc.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="../Img/logo.png" alt="logo">
+        <div class="elementos">
+            <a href="#" id="seleccion">Pausas activas</a>
+            <a href="/Html/habitos-saludables.html">Hábitos saludables</a>
+            <button id="calcularBtn">Calcular IMC</button>
+        </div>
+    </nav>
+
+    <div id="calculadoraIMC" class="calculadora hidden">
+        <button id="cerrarBtn">Cerrar</button>
+        <h2>Calculadora de IMC</h2>
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" min="0" step="0.01">
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura" min="0" step="0.01">
+        <button id="calcularIMC">Calcular</button>
+        <div id="resultado"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rango de IMC</th>
+                    <th>Categoría</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="bajoPeso">
+                    <td>Por debajo de 18.5</td>
+                    <td>Bajo peso</td>
+                </tr>
+                <tr id="pesoSaludable">
+                    <td>18.5—24.9</td>
+                    <td>Peso saludable</td>
+                </tr>
+                <tr id="sobrepeso">
+                    <td>25.0—29.9</td>
+                    <td>Sobrepeso</td>
+                </tr>
+                <tr id="obesidad">
+                    <td>30.0 o más</td>
+                    <td>Obesidad</td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="limpiar">Limpiar</button>
+    </div>
+
+    <div class="mensaje">
+        <div class="imagen">
+            <img src="../Img/imagen_2.png" alt="imagen_2">
+        </div>
+        <div class="texto">
+            <h1>Pausas activas</h1>
+        </div>
+    </div>
+
+    <div class="contenido">
+        <div class="elemento-texto">
+            <p>
+                En la vida cotidiana, ya sea en el entorno laboral, académico o incluso en nuestras actividades diarias,
+                pasamos largas horas frente a una pantalla o realizando tareas que requieren concentración constante.
+                Esto puede llevar a una tensión física y mental significativa, lo que afecta negativamente nuestra salud
+                y bienestar.
+            </p>
+            <p>
+                Para contrarrestar este desgaste, se han vuelto cada vez más populares las pausas activas.
+            </p>
+        </div>
+        <div class="pausas-activas">
+
+            <div class="textos">
+                <div class="imagen">
+                    <img src="../Img/pausas_activas_1.jpg" alt="comida">
+                </div>
+                <div class="texto">
+                    <h2>¿Qué son las pausas activas?</h2>
+                    <p>
+                        Las pausas activas son breves interrupciones programadas durante nuestra jornada para realizar
+                        ejercicios físicos y mentales simples. Estas pausas pueden variar desde estiramientos y
+                        movimientos ligeros hasta ejercicios de relajación y técnicas de respiración. El objetivo
+                        principal de las pausas activas es revitalizar el cuerpo y la mente, promoviendo la salud y la
+                        productividad en el proceso.
+                </div>
+            </div>
+            <div class="textos">
+                <div class="texto">
+                    <h2>¿Por qué hacer pausas activas?</h2>
+                    <p>
+                        Hacer pausas activas es esencial para mantener un equilibrio saludable entre el trabajo y el
+                        bienestar personal. La vida sedentaria y el estrés constante pueden tener efectos adversos en
+                        nuestra salud física y mental. Las pausas activas nos brindan una oportunidad para reducir la
+                        tensión muscular, mejorar la circulación sanguínea, aliviar el estrés y aumentar la
+                        concentración, lo que en última instancia mejora nuestra eficiencia y calidad de vida.
+                    </p>
+                </div>
+                <div class="imagen">
+                    <img src="../Img/pausas_activas_3.jpg" alt="cigarro">
+                </div>
+            </div>
+            <div class="textos">
+                <div class="imagen">
+                    <img src="../Img/pausas_activas_2.jpg" alt="deporte">
+                </div>
+                <div class="texto">
+                    <h2>¿Cuándo se deben realizar las pausas activas?</h2>
+                    <p>
+                        Las pausas activas se pueden llevar a cabo en cualquier momento de la jornada laboral, pero se
+                        sugiere especialmente realizarlas al inicio y al final de la jornada laboral, así como programar
+                        pausas activas cada dos o tres horas durante el día. Esta práctica ayuda a preparar el cuerpo
+                        para el trabajo, revitalizar la energía en momentos clave y aliviar la tensión acumulada, lo que
+                        contribuye significativamente al bienestar y la productividad a lo largo del día laboral.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="beneficios">
+            <div class="texto-beneficios">
+                <h2>¿Cuáles son los beneficios?</h2>
+                <div class="texto">
+                    <p>
+                        Las pausas activas ofrecen una serie de beneficios, entre los cuales destacan:
+                    </p>
+                </div>
+            </div>
+            <div class="beneficios-lista">
+                <ul>
+                    <li><strong>Mejora de la productividad:</strong> Al tomar pausas activas, puedes recargar tu energía
+                        y aumentar tu
+                        enfoque, lo que te permite trabajar de manera más eficiente.</li>
+                    <li><strong>Reducción del estrés:</strong> Las pausas brindan un momento para relajarte y liberar
+                        tensiones, lo que
+                        reduce el estrés y mejora tu bienestar emocional.</li>
+                    <li><strong>Prevención de problemas de salud:</strong> La actividad física durante las
+                        pausas activas puede
+                        ayudar a prevenir problemas de salud relacionados con el sedentarismo, como dolores musculares y
+                        enfermedades cardiovasculares.</li>
+                    <li><strong>Mayor creatividad:</strong> Las pausas activas estimulan la mente y pueden impulsar la
+                        creatividad, lo
+                        que puede ser especialmente beneficioso para tareas creativas o de resolución de problemas.</li>
+                    <li><strong>Mejora de la postura y la ergonomía:</strong> Realizar ejercicios de estiramiento
+                        durante las pausas
+                        activas puede ayudar a corregir la postura y reducir el riesgo de lesiones relacionadas con la
+                        mala ergonomía.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="elemento-texto">
+            <p>
+                En resumen, las pausas activas son una práctica sencilla pero efectiva que puede tener un impacto
+                significativo en nuestra salud y rendimiento en el trabajo y en la vida diaria. Integrar estas pausas en
+                nuestra rutina diaria puede ser una decisión clave para mantener un equilibrio adecuado entre el trabajo
+                y el bienestar.
+            </p>
+
+            <div class="imagen-fondo"></div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-contenido">
+            <p>Elaborado por Jhon Herrera</p>
+            <p>&copy; 2023 Vital vida. Todos los derechos reservados.</p>
+            <div class="enlaces">
+                <a href="#">Inicio</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../Js/calculador-imc.js"></script>
+</body>
+
+</html>

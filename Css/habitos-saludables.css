@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /* width: 1903px; */
+    width: 1350px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.logo {
+    width: 270px;
+}
+
+nav {
+    padding: 10px 30px;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elementos {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.elementos button {
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #215a6d;
+    color: white;
+}
+
+#seleccion {
+    color: #215a6d;
+}
+
+nav a {
+    color: #2d2d29;
+    text-decoration: none;
+}
+
+.contenido {
+    padding: 20px 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    color: #2d2d29;
+}
+
+.mensaje {
+    margin: 70px 0;
+    background-color: #2d2d29;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mensaje .imagen {
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
+.mensaje .imagen img {
+    width: auto;
+    height: auto;
+    /* border: 2px black solid; */
+}
+
+.mensaje .texto {
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+}
+
+.elemento-texto {
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.habitos {
+    display: flex;
+    /* border: 2px black solid; */
+    flex-direction: column;
+    gap: 100px;
+}
+
+.textos {
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px black solid; */
+    /* box-shadow: 0px 2px 4px rgb(180, 180, 180); */
+    /* border-radius: 5px; */
+    background-color: #124356;
+    color: white;
+}
+
+.textos .imagen {
+    /* border: 2px red solid; */
+    width: 400px;
+    /* border: 1px solid #ccc; */
+    overflow: hidden;
+}
+
+.textos .imagen img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.textos .texto {
+    /* border: 2px green solid; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+    gap: 20px;
+}
+
+.textos .texto p {
+    text-align: justify;
+    line-height: 22px;
+
+}
+
+.beneficios {
+    /* border: 2px black solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.beneficios .texto {
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.beneficios-lista {
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.beneficios-lista .beneficios-elemento {
+    /* border: 2px black solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 47%;
+    /* background-color: #222; */
+}
+
+.beneficios-elemento ul {
+    line-height: 30px;
+}
+
+#fisiologicos ul {
+    padding: 50px;
+    background-color: #dc4541;
+    color: white;
+}
+
+#psicosociales ul {
+    padding: 50px;
+    background-color: #027cb4;
+    color: white;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-contenido {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    /* border: 2px black solid; */
+    gap: 20px;
+}
+
+.enlaces {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.enlaces a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.enlaces a:hover {
+    color: #fff;
+}
+
+.imagen-fondo {
+    background: url(/Img/fondo.jpg) no-repeat 0 -55px;
+    height: 400px;
+    background-size: cover;
+    /* border: 2px black solid; */
+}
