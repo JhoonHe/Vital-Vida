@@ -8,16 +8,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const pesoInput = document.getElementById("peso");
   const alturaInput = document.getElementById("altura");
 
-  calcularBtn.addEventListener("click", () => {
-    calculadoraIMC.classList.remove("hidden");
-  });
+  // calcularBtn.addEventListener("click", () => {
+  //   calculadoraIMC.classList.remove("hidden");
+  // });
 
-  cerrarBtn.addEventListener("click", () => {
-    console.log("cerrar");
-    calculadoraIMC.classList.add("hidden");
-    limpiarCampos();
-    quitarResaltadoCategorias();
-  });
+  // cerrarBtn.addEventListener("click", () => {
+  //   console.log("cerrar");
+  //   calculadoraIMC.classList.add("hidden");
+  //   limpiarCampos();
+  //   quitarResaltadoCategorias();
+  // });
 
   calcularIMCBtn.addEventListener("click", () => {
     const peso = parseFloat(pesoInput.value);

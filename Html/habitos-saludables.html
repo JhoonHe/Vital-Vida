@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Hábitos saludables</title>
     <link rel="stylesheet" href="../Css/habitos-saludables.css">
+    <!-- <link rel="stylesheet" href="../Css/calculador-imc.css"> -->
 </head>
 
 <body>
@@ -14,9 +15,49 @@
         <div class="elementos">
             <a href="#" id="seleccion">Hábitos saludables</a>
             <a href="/Html/pausas-activas.html">Pausas activas</a>
-            <!-- <button>Calcular IMC</button> -->
+            <a href="/Html/ergonomia.html">Ergonomía</a>
+            <a href="/Html/imc.html">Calcular IMC</a>
+            <!-- <button id="calcularBtn">Calcular IMC</button> -->
         </div>
     </nav>
+    <!-- 
+    <div id="calculadoraIMC" class="calculadora hidden">
+        <button id="cerrarBtn">Cerrar</button>
+        <h2>Calculadora de IMC</h2>
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" min="0" step="0.01">
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura" min="0" step="0.01">
+        <button id="calcularIMC">Calcular</button>
+        <div id="resultado"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rango de IMC</th>
+                    <th>Categoría</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="bajoPeso">
+                    <td>Por debajo de 18.5</td>
+                    <td>Bajo peso</td>
+                </tr>
+                <tr id="pesoSaludable">
+                    <td>18.5—24.9</td>
+                    <td>Peso saludable</td>
+                </tr>
+                <tr id="sobrepeso">
+                    <td>25.0—29.9</td>
+                    <td>Sobrepeso</td>
+                </tr>
+                <tr id="obesidad">
+                    <td>30.0 o más</td>
+                    <td>Obesidad</td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="limpiar">Limpiar</button>
+    </div> -->
 
     <div class="mensaje">
         <div class="imagen">
@@ -235,6 +276,7 @@
         </div>
     </footer>
 
+    <!-- <script src="../Js/calculador-imc.js"></script> -->
 </body>
 
 </html>
